@@ -1,0 +1,367 @@
+/* サイトの基本設定 */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin:0;
+  padding:0;
+}
+
+body {
+  font-family:'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+.contents li {
+  list-style:none;
+}
+
+.contents a {
+  text-decoration:none;
+}
+
+.contents{
+  width:100%;
+  max-width:1170px;
+  margin:0 auto;
+  text-align:center;
+}
+
+/* ヘッダー部分の設定 */
+header{
+  width:100%;
+}
+
+.header-title{
+  display:inline-block;
+  margin-left:130px;
+  padding-top:20px;
+  padding-bottom:20px;
+  font-size:20px;
+}
+
+header a{
+  margin-right:50px;
+  padding:20px;
+  float:right;
+  background-color:rgba(200,200,200,0.7);
+  font-size:20px;
+  color:black;
+}
+
+header a:hover{
+  background-color:rgba(150,150,150,1.0);
+}
+
+header a:active{
+  background-color:rgba(100,100,100,1.0);
+}
+
+/* メイン画像部分の設定 */
+.first-content{
+  width:100%;
+  padding-bottom:100px;
+}
+
+.first-content img{
+  width:100%;
+}
+
+/* コンセプトとプロフィール部分の設定 */
+.second-content{
+  width:100%;
+  padding-bottom:100px;
+}
+
+#concept{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding:10px 30px;
+  font-size:40px;
+  letter-spacing:3px;
+  color:rgba(30,30,30,0.7);
+}
+
+#concept span{
+  color:rgba(255,50,50,0.7);
+}
+
+.concept-content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+  width:75%;
+  font-size:18px;
+}
+
+#profile{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding:10px 30px;
+  font-size:40px;
+  letter-spacing:3px;
+  color:rgba(30,30,30,0.7);
+}
+
+#profile span{
+  color:rgba(50,50,255,0.7);
+}
+
+.profile-content{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:50px;
+  width:75%;
+  font-size:18px;
+}
+
+.second-content img{
+  width:40%;
+}
+
+.owner-name{
+  padding-top:10px;
+  font-size:18px;
+}
+
+/* メニュー部分の設定 */
+.third-content{
+  width:100%;
+  padding-bottom:100px;
+}
+
+.third-fix{
+  text-align:center;
+}
+
+#menu{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding:10px 30px;
+  font-size:40px;
+  letter-spacing:3px;
+  color:rgba(30,30,30,0.7);
+}
+
+#menu span{
+  color:rgba(255,225,0,1.0);
+}
+
+.first-menu-reader{
+  border-top:2px solid gray;
+}
+
+.menu-reader{
+  padding-top:25px;
+  padding-bottom:45px;
+  width:100%;
+  border-bottom:2px solid gray;
+  background-color:rgba(220,220,220,0.6);
+  cursor:pointer;
+}
+
+.menu-reader h3{
+  float:left;
+  margin-left:40px;
+  font-size:18px;
+}
+
+.fa-plus{
+  float:right;
+  margin-top:-5px;
+  margin-right:60px;
+  padding:6px;
+  border:3px solid rgb(50,50,50);
+  border-radius:50%;
+  color:rgb(50,50,50);
+}
+
+.fa-minus{
+  float:right;
+  margin-top:-5px;
+  margin-right:60px;
+  padding:6px;
+  border:3px solid rgb(50,50,50);
+  border-radius:50%;
+  color:rgb(50,50,50);
+}
+
+.menu-content{
+  display:none;
+}
+
+.menu-content li{
+  padding-top:25px;
+  padding-bottom:45px;
+  width:100%;
+  border-right:2px solid gray;
+  border-bottom:2px solid gray;
+  border-left:2px solid gray;
+  background-color:rgba(150,150,150,0.6);
+}
+
+.menu-content-top{
+  margin-bottom:20px;
+  padding-bottom:60px;
+}
+
+.menu-content-top h4{
+  float:left;
+  margin-left:50px;
+  margin-bottom:5px;
+  padding-right:30px;
+  font-size:18px;
+  font-weight:normal;
+}
+
+.menu-content-top p{
+  float:right;
+  margin-right:70px;
+  font-size:18px;
+}
+
+.menu-content-bottom{
+  width:80%;
+  margin:0 auto;
+  font-size:16px;
+}
+
+/* 予約部分の設定 */
+.forth-content{
+  width:100%;
+  padding-bottom:100px;
+}
+
+#reservation{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding:10px 30px;
+  font-size:40px;
+  letter-spacing:3px;
+  color:rgba(30,30,30,0.7);
+}
+
+#reservation span{
+  color:rgba(255,67,176,0.7);
+}
+
+.reservation-btn{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:45px;
+  padding:10px 30px;
+  width:70%;
+  border-radius:5px;
+  font-size:20px;
+  color:white;
+  background-color:rgba(50,50,50,0.4);
+}
+
+.reservation-btn:hover{
+  background-color:rgba(50,50,50,0.6);
+}
+
+.reservation-btn:active{
+  background-color:rgba(50,50,50,0.8);
+}
+
+.tellephone-btn{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom:10px;
+  padding:10px 30px;
+  width:70%;
+  border-radius:5px;
+  font-size:20px;
+  color:white;
+  background-color:rgba(50,50,50,0.4);
+}
+
+.tellephone-btn:hover{
+  background-color:rgba(50,50,50,0.6);
+}
+
+.tellephone-btn:active{
+  background-color:rgba(50,50,50,0.8);
+}
+
+.tellephone-number{
+  font-size:18px;
+}
+
+/* 写真部分の設定 */
+.fifth-content{
+  width:100%;
+  padding-bottom:100px;
+}
+
+#gallery{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:30px;
+  padding:10px 30px;
+  font-size:40px;
+  letter-spacing:3px;
+  color:rgba(30,30,30,0.7);
+}
+
+#gallery span{
+  color:rgba(0,136,51,0.7);
+}
+
+.gallery-contents{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.fifth-content img:nth-of-type(2n+1){
+  margin:0 5% 10% 10%;
+  width:35%;
+}
+
+.fifth-content img:nth-of-type(2n){
+  margin:0 10% 10% 5%;
+  width:35%;
+}
+
+/* フッター部分の設定 */
+footer{
+  width:100%;
+  background-color:rgba(0,0,0,0.7);
+}
+
+footer p:nth-child(1){
+  margin:0 auto;
+  padding-top:60px;
+  padding-bottom:15px;
+  width:90%;
+  font-size:18px;
+  color:white;
+}
+
+footer p:nth-child(2),
+footer p:nth-child(3){
+  margin:0 auto;
+  padding-top:15px;
+  padding-bottom:15px;
+  width:90%;
+  font-size:18px;
+  color:white;
+}
+
+footer p:nth-child(4){
+  margin:0 auto;
+  padding-top:15px;
+  padding-bottom:60px;
+  width:90%;
+  font-size:18px;
+  color:white;
+}
