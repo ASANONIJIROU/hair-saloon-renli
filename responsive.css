@@ -1,0 +1,361 @@
+/* 画面幅が1000px以下のときの設定 */
+@media all and (max-width:1000px){
+
+  .header-title{
+    margin-left:112px;
+    padding-top:18px;
+    padding-bottom:18px;
+    font-size:25px;
+  }
+
+  header a{
+    margin-right:40px;
+    padding:23.5px 18px;
+    font-size:18px;
+  }
+
+  .first-content,.second-content,
+  .third-content,.forth-content,
+  .fifth-content{
+    padding-bottom:80px;
+  }
+
+  #concept,#profile,
+  #menu,#reservation,
+  #gallery{
+    margin-bottom:20px;
+    font-size:35px;
+    letter-spacing:2px;
+  }
+
+  .concept-content{
+    margin-bottom:40px;
+    width:80%;
+    font-size:17px;
+  }
+
+  .profile-content{
+    margin-bottom:40px;
+    width:80%;
+    font-size:17px;
+  }
+
+  .second-content img{
+    width:50%;
+  }
+
+  .owner-name{
+    padding-top:8px;
+    font-size:16px;
+  }
+
+  .menu-reader{
+    padding-top:20px;
+    padding-bottom:40px;
+  }
+
+  .menu-reader h3{
+    font-size:18px;
+  }
+
+  .fa-plus{
+    margin-right:50px;
+  }
+
+  .fa-minus{
+    margin-right:50px;
+  }
+
+  .menu-content li{
+    padding-top:20px;
+    padding-bottom:30px;
+  }
+
+  .menu-content-top{
+    padding-bottom:50px;
+  }
+
+  .menu-content-top h4{
+    margin-left:50px;
+    font-size:18px;
+  }
+
+  .menu-content-top p{
+    margin-right:70px;
+    font-size:18px;
+  }
+
+  .menu-content-bottom{
+    width:80%;
+    font-size:16px;
+  }
+
+  .reservation-btn{
+    margin-bottom:35px;
+    padding:8px 25px;
+    font-size:18px;
+  }
+
+  .tellephone-btn{
+    margin-bottom:10px;
+    padding:8px 25px;
+    font-size:18px;
+  }
+
+  .tellephone-number{
+    font-size:16px;
+  }
+
+  iframe{
+    height:300px;
+  }
+
+  footer p:nth-child(1){
+    padding-top:50px;
+    padding-bottom:12px;
+    font-size:16px;
+  }
+
+  footer p:nth-child(2),
+  footer p:nth-child(3){
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size:16px;
+  }
+
+  footer p:nth-child(4){
+    padding-top:12px;
+    padding-bottom:50px;
+    font-size:16px;
+  }
+
+}
+
+
+/* 画面幅が670px以下のときの設定 */
+@media all and (max-width:670px){
+
+  .header-title{
+    margin-left:94px;
+    padding-top:16px;
+    padding-bottom:16px;
+    font-size:22px;
+  }
+
+  header a{
+    margin-right:30px;
+    padding:20.5px 16px;
+    font-size:16px;
+  }
+
+  .first-content,.second-content,
+  .third-content,.forth-content,
+  .fifth-content{
+    padding-bottom:60px;
+  }
+
+  #concept,#profile,
+  #menu,#reservation,
+  #gallery{
+    margin-bottom:10px;
+    font-size:30px;
+    letter-spacing:1.5px;
+  }
+
+  .concept-content{
+    margin-bottom:30px;
+    width:85%;
+    font-size:16px;
+  }
+
+  .profile-content{
+    margin-bottom:30px;
+    width:85%;
+    font-size:16px;
+  }
+
+  .second-content img{
+    width:60%;
+  }
+
+  .owner-name{
+    padding-top:6px;
+    font-size:14px;
+  }
+
+  .menu-reader{
+    padding-top:15px;
+    padding-bottom:35px;
+  }
+
+  .menu-reader h3{
+    font-size:16px;
+  }
+
+  .fa-plus{
+    margin-right:40px;
+  }
+
+  .fa-minus{
+    margin-right:40px;
+  }
+
+  .menu-content li{
+    padding-top:15px;
+    padding-bottom:20px;
+  }
+
+  .menu-content-top{
+    padding-bottom:40px;
+  }
+
+  .menu-content-top h4{
+    margin-left:30px;
+    font-size:16px;
+  }
+
+  .menu-content-top p{
+    margin-right:40px;
+    font-size:16px;
+  }
+
+  .menu-content-bottom{
+    width:80%;
+    font-size:14px;
+  }
+
+  .reservation-btn{
+    margin-bottom:30px;
+    padding:6px 20px;
+    font-size:16px;
+  }
+
+  .tellephone-btn{
+    margin-bottom:8px;
+    padding:6px 20px;
+    font-size:16px;
+  }
+
+  .tellephone-number{
+    font-size:14px;
+  }
+
+  .fifth-content img:nth-of-type(2n+1){
+    margin:0 10% 10% 10%;
+    width:80%;
+  }
+
+  .fifth-content img:nth-of-type(2n){
+    margin:0 10% 10% 10%;
+    width:80%;
+  }
+
+  iframe{
+    height:200px;
+  }
+
+  footer p:nth-child(1){
+    padding-top:40px;
+    padding-bottom:10px;
+    font-size:14px;
+  }
+
+  footer p:nth-child(2),
+  footer p:nth-child(3){
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:14px;
+  }
+
+  footer p:nth-child(4){
+    padding-top:10px;
+    padding-bottom:40px;
+    font-size:14px;
+  }
+
+}
+
+
+/* 画面幅が450px以下のときの設定 */
+@media all and (max-width:450px){
+
+  .header-title{
+    margin-left:52px;
+    padding-top:16px;
+    padding-bottom:16px;
+    font-size:20px;
+  }
+
+  header a{
+    margin-right:0;
+    padding:19px 10px;
+    font-size:16px;
+  }
+
+  .first-content,.second-content,
+  .third-content,.forth-content,
+  .fifth-content{
+    padding-bottom:40px;
+  }
+
+  .menu-reader{
+    padding-top:15px;
+    padding-bottom:35px;
+  }
+
+  .menu-reader h3{
+    font-size:16px;
+  }
+
+  .fa-plus{
+    margin-right:30px;
+  }
+
+  .fa-minus{
+    margin-right:30px;
+  }
+
+  .menu-content li{
+    padding-top:15px;
+    padding-bottom:20px;
+  }
+
+  .menu-content-top{
+    padding-bottom:40px;
+  }
+
+  .menu-content-top h4{
+    margin-left:15px;
+    font-size:15px;
+  }
+
+  .menu-content-top p{
+    margin-right:20px;
+    font-size:15px;
+  }
+
+  .menu-content-bottom{
+    width:90%;
+    font-size:14px;
+  }
+
+  footer p:nth-child(1){
+    padding-top:30px;
+    padding-bottom:8px;
+    font-size:12px;
+  }
+
+  footer p:nth-child(2),
+  footer p:nth-child(3){
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:12px;
+  }
+
+  footer p:nth-child(4){
+    padding-top:8px;
+    padding-bottom:30px;
+    font-size:12px;
+  }
+
+}
