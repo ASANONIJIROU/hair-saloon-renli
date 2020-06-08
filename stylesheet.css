@@ -298,6 +298,10 @@ header a:active{
   font-size:18px;
 }
 
+.tellephone-number a{
+  text-decoration:none;
+}
+
 /* 写真部分の設定 */
 .fifth-content{
   width:100%;
