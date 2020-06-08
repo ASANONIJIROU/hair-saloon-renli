@@ -18,7 +18,6 @@
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="stylesheet" href="responsive.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
-<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- OGPの設定（twitter&facebook） -->
@@ -61,16 +60,7 @@
      <!-- メイン画像部分のコード -->
      <div class="first-content">
 
-       <div class="swiper-container">
-
-         <div class="swiper-wrapper">
-
-           <img class="swiper-slide" src="https://github.com/ASANONIJIROU/hear-salon-renri/blob/master/image00.jpeg?raw=true" alt="ヘアーサロン　レンリの看板・玄関写真">
-           <img class="swiper-slide" src="https://github.com/ASANONIJIROU/hear-salon-renri/blob/master/image01.jpeg?raw=true" alt="ヘアーサロン　レンリの看板・玄関写真">
-
-         </div>
-
-       </div>
+       <img id="mypic" src="https://github.com/ASANONIJIROU/hear-salon-renri/blob/master/image00.jpeg?raw=true" alt="ヘアーサロン　レンリの看板・玄関写真">
 
      </div>
 
@@ -632,19 +622,26 @@
 
    <!-- 外部ファイルの読み込み -->
    <script src="script.js"></script>
-   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 
 
    <!-- 画像3枚を切り替えるための設定 -->
    <script>
 
-   let mySwiper = new Swiper ('.swiper-container', {
-     loop: true,
-     autoplay: {
-       delay: 5000,
-     },
-     speed: 1,
-   });
+   var pics_src = new Array("https://github.com/ASANONIJIROU/hear-salon-renri/blob/master/image00.jpeg?raw=true","https://github.com/ASANONIJIROU/hear-salon-renri/blob/master/image01.jpeg?raw=true");
+        var num = -1;
+
+        slideshow_timer();
+
+        function slideshow_timer(){
+            if (num == 1){
+                num = 0;
+            }
+            else {
+                num ++;
+            }
+            document.getElementById("mypic").src=pics_src[num];
+            setTimeout("slideshow_timer()",5000);
+        }
 
    </script>
 
