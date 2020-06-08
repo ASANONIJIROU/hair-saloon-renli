@@ -300,6 +300,7 @@ header a:active{
 
 .tellephone-number a{
   text-decoration:none;
+  pointer-events:none;
 }
 
 /* 写真部分の設定 */
